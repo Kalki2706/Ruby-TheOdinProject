@@ -13,3 +13,14 @@
 
 # With the concat method:
 "Welcome ".concat("to ").concat("Odin!")  #=> "Welcome to Odin!"
+
+# SUBSTRINGS
+"hello"[0]      #=> "h"
+
+"hello"[0..1]   #=> "he"
+
+puts ("hello"[0, 2]) #=> "he"
+
+"hello"[0, 4]   #=> "hell"
+
+"hello"[-1]     #=> "o"
