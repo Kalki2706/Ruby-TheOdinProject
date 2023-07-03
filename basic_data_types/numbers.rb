@@ -17,3 +17,18 @@
 # Modulus (find the remainder of division)
 8 % 2   #=> 0  (8 / 2 = 4; no remainder)
 10 % 4  #=> 2  (10 / 4 = 2 with a remainder of 2)
+
+# Integers and Floats
+# when doing arithmetic with two integers in Ruby, the result will always be an integer.
+17 / 5    #=> 3, not 3.4
+
+# arithmetic operation between integer and float
+17 / 5.0  #=> 3.4
+
+# CONVERTING NUMBER TYPES 
+# To convert an integer to a float:
+13.to_f   #=> 13.0
+
+# To convert a float to an integer:
+13.0.to_i #=> 13
+13.9.to_i #=> 13
