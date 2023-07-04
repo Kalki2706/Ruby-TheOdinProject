@@ -90,6 +90,29 @@ puts ('foo' + 'foo')
 
 puts ('foo' + 'bar')
 
+puts ("hello" + " world!")
+
 puts ('1' + '1')
 
-puts ('one' + 1)
+# puts ('one' + 1)
+
+# TYPE CONVERSION
+
+puts ('12'.to_i) + 10 #converted string to number and added to other int with string concat
+
+puts '4 hi there'.to_i
+
+puts 'hi there 4'.to_i
+
+puts '4'.to_f
+
+puts '4 hi there'.to_f
+
+puts 'hi there 4'.to_f
+
+puts 4.to_s
+
+puts '47lol'.to_s
+
+puts 'hi there 4478'.to_s
+
