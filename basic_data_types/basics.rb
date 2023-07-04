@@ -64,6 +64,23 @@ puts (16 / 4)
 puts (16 % 4)
 
 # Modulo vs. Remainder
-puts 16.remainder(5)
+puts (16.remainder(5))
 
-print 16.divmod(5)
+print (16.divmod(5)), "\n"
+
+# Multiplying and Dividing Floats
+
+puts (15.0 / 4)
+
+puts (9.75 * 4.32)
+
+# Equality Comparison
+puts (4 == 4)
+
+puts (4 == 5)
+
+puts ('foo' == 'foo')
+
+puts ('foo' == 'bar')
+
+puts ('4' == 4)
