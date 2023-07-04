@@ -19,3 +19,14 @@ puts 'The man said, \'Hi there!\''
 a = 'ten'
 
 puts "My favourite number is #{a}!"
+
+# SYMBOLS
+# Ruby symbols are created by placing a colon (:) before a word.
+# Examples of symbols
+
+:name
+:a_symbol
+:"surprisingly, this is also a symbol"
+
+# Basically, a symbol is used when you want to reference something like a string but don't ever intend to print it to the screen or change it. It is often referred to as an immutable (i.e. unchangeable) string. While not 100% technically correct, it is a useful mnemonic device for now.
+
