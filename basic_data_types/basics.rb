@@ -30,3 +30,9 @@ puts "My favourite number is #{a}!"
 
 # Basically, a symbol is used when you want to reference something like a string but don't ever intend to print it to the screen or change it. It is often referred to as an immutable (i.e. unchangeable) string. While not 100% technically correct, it is a useful mnemonic device for now.
 
+# NUMBERS
+# Example of integer literals
+1, 2, 3, 50, 10, 4345098098
+
+# Example of float literals
+1.2345, 2345.4267, 98.2234
