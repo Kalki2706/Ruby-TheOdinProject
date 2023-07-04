@@ -46,3 +46,10 @@ puts 43.8 * 43.8
 puts 10.12 * 10.12
 
 puts 100.456 * 100.456
+
+# 7th Question Solution
+# What does the following error message tell you?
+# SyntaxError: (irb):2: syntax error, unexpected ')', expecting '}'
+#   from /usr/local/rvm/rubies/ruby-2.5.3/bin/irb:16:in `<main>'
+
+# Ans. The  error message is saying that there is a syntax error on 2nd line of irb, it should be closing curly braces }, instead of closing braces ).
