@@ -86,3 +86,10 @@ puts "hello world".delete("l")
 puts "!".prepend("hello, ", "world")
 
 puts "hello, world".prepend("!")
+
+# CONVERTING OTHER OBJECTS TO STRINGS
+puts 5.to_s
+
+puts nil.to_s
+
+puts :symbol.to_s
