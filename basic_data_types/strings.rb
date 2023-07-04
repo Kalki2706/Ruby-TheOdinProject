@@ -39,3 +39,33 @@ s.gsub(/[aeiou]/, '')# => "hll"
 s.sub(/ell/, 'al')   # => "halo"
 s.gsub(/xyzzy/, '*') # => "hello"
 'THX1138'.gsub(/\d+/, '00') # => "THX00"
+
+# ESCAPE CHARACTERS
+# \\  #=> Need a backslash in your string?
+# \b  #=> Backspace
+# \r  #=> Carriage return, for those of you that love typewriters
+# \n  #=> Newline. You'll likely use this one the most.
+# \s  #=> Space
+# \t  #=> Tab
+# \"  #=> Double quotation mark
+# \'  #=> Single quotation mark
+
+puts "Hello \n\nHello"
+puts "Hello\\World"
+puts "Hello\rworld"
+puts "Here's \'quote\' that you like"
+
+# STRING METHODS
+puts "hello".upcase
+
+puts "HELLO".downcase
+
+puts "Hello".split("")
+
+puts " hello, World   ".strip
+
+puts "hello".length
+
+puts "hello".include?("lo")
+
+puts "hello".empty?
