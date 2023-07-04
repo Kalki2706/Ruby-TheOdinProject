@@ -7,3 +7,15 @@ true                     # boolean literal
 [ 1, 2, 3 ]              # array literal
 :sym                     # symbol literal
 nil                      # nil literal
+
+# STRINGS
+# Ex. 1: with double quotes
+puts "The man said, 'Hi there!'"
+
+# Ex 2: with single quotes and escaping
+puts 'The man said, \'Hi there!\''
+
+# String Interpolation
+a = 'ten'
+
+puts "My favourite number is #{a}!"
