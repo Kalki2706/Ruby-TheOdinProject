@@ -32,7 +32,20 @@ puts "My favourite number is #{a}!"
 
 # NUMBERS
 # Example of integer literals
-1, 2, 3, 50, 10, 4345098098
+# 1, 2, 3, 50, 10, 4345098098
 
 # Example of float literals
-1.2345, 2345.4267, 98.2234
+# 1.2345, 2345.4267, 98.2234
+
+# NIL
+x = nil
+puts (x)
+
+puts "hello".nil?
+
+if 1
+  puts "hello, world!"
+end
+
+false == nil
+puts false
