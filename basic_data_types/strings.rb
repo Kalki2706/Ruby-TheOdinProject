@@ -69,3 +69,5 @@ puts "hello".length
 puts "hello".include?("lo")
 
 puts "hello".empty?
+
+puts "hello".capitalize
