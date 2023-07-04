@@ -1,3 +1,6 @@
+# THIS FILE IS FOR MY REVISION
+
+
 # # preparation.rb
 # require "pry"
 
@@ -5,4 +8,5 @@
 # a << 4
 # # binding.pry     # execution will pause here, allowing you to inspect all objects
 # puts a
+
 
