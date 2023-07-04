@@ -49,3 +49,21 @@ end
 
 false == nil
 puts false
+
+# OPERATIONS
+# Adding, Subtracting, and Multiplying Integers
+puts (1 + 1)
+
+puts (2 * 2)
+
+puts (3 - 3)
+
+# Division vs. Modulo
+puts (16 / 4)
+
+puts (16 % 4)
+
+# Modulo vs. Remainder
+puts 16.remainder(5)
+
+print 16.divmod(5)
