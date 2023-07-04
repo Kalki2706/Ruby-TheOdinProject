@@ -126,5 +126,8 @@ a = [1, 2, 3, 4, 5, 6]
 # puts a[0]
 puts a[-4]
 
+# Hashes
+puts {:dog => 'barks'}[:dog]
 
+print {:dog => "barks", :cat => "meows", :pig => "oinks"}[:cat]
 
