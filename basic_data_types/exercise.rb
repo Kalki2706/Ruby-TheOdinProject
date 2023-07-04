@@ -20,3 +20,10 @@ movie_release_year = { :shole => '1975',
 
 puts movie_release_year[:lagaan]
 puts movie_release_year[:raanjhanna]
+
+# 4th Question Solution
+# Array
+
+dates = [1975, 2004, 2013, 2001, 1981]
+
+puts dates[-1]
