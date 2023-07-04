@@ -116,3 +116,15 @@ puts '47lol'.to_s
 
 puts 'hi there 4478'.to_s
 
+# BASIC DATA STRUCTURES
+# Two very common data structures that you will use as a Ruby programmer are "arrays" and "hashes"
+
+# Array
+# print[1, 2, 3, 4, 5]
+
+a = [1, 2, 3, 4, 5, 6]
+# puts a[0]
+puts a[-4]
+
+
+
