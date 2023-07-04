@@ -127,7 +127,16 @@ a = [1, 2, 3, 4, 5, 6]
 puts a[-4]
 
 # Hashes
-puts {:dog => 'barks'}[:dog]
+# puts {:dog => 'barks'}[:dog]
 
-print {:dog => "barks", :cat => "meows", :pig => "oinks"}[:cat]
+# print {:dog => "barks", :cat => "meows", :pig => "oinks"}[:cat]
 
+# EXPRESSIONS AND RETURN
+# Every time you enter something into irb you see the => back, which is called a hash rocket 
+
+# puts vs return
+puts "stuff"
+
+a = puts "stuff"
+
+puts a
