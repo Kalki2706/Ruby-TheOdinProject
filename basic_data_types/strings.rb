@@ -73,3 +73,16 @@ puts "hello".empty?
 puts "hello".capitalize
 
 puts "olleh".reverse
+
+# STRING METHODS - SUB & GSUB
+puts "he77o".sub("7", "l") #it only changes one character.
+
+puts "he77o".gsub("7", "l") #it changes all character.
+
+puts "hello".insert(-1, " dude") #-1 here is index number saying you should insert text after -1 index character
+
+puts "hello world".delete("l")
+
+puts "!".prepend("hello, ", "world")
+
+puts "hello, world".prepend("!")
