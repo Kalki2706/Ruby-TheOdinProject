@@ -14,7 +14,9 @@ puts tens
 puts ones
 
 # 3rd Question Solution (Solved by me, hihihihihi)
-movie_release_year = {:shole => '1975', :lakshya => '2004', :raanjhanna => '2013', :lagaan => '2001', :naseeb => '1981'} 
+movie_release_year = { :shole => '1975',
+                       :lakshya => '2004', :raanjhanna => '2013', :lagaan => '2001',
+                       :naseeb => '1981' } 
 
 puts movie_release_year[:lagaan]
 puts movie_release_year[:raanjhanna]
