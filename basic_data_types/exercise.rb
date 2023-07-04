@@ -38,3 +38,11 @@ puts 6 * 5 * 4 * 3 * 2 * 1 #factorail of 6
 puts 7 * 6 * 5 * 4 * 3 * 2 * 1 #factorial of 7
 
 puts 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1 #factorial of 8
+
+#6th Question Solution (Copied from question website 'cause I didn't understand the question)
+
+puts 43.8 * 43.8
+
+puts 10.12 * 10.12
+
+puts 100.456 * 100.456
