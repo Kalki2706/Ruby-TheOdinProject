@@ -84,3 +84,12 @@ puts ('foo' == 'foo')
 puts ('foo' == 'bar')
 
 puts ('4' == 4)
+
+# STRING CONCATENATION
+puts ('foo' + 'foo')
+
+puts ('foo' + 'bar')
+
+puts ('1' + '1')
+
+puts ('one' + 1)
