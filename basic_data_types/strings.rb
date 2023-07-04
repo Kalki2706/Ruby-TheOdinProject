@@ -71,3 +71,5 @@ puts "hello".include?("lo")
 puts "hello".empty?
 
 puts "hello".capitalize
+
+puts "olleh".reverse
