@@ -43,3 +43,14 @@ puts johns_location.upcase!  #=> "BARCELONA"
 
 puts desired_location        #=> "BARCELONA"
 puts johns_location          #=> "BARCELONA"
+
+# ASSIGNING VALUES TO VARIABLES
+first_name = 'Joe'
+puts first_name
+
+a = 4 
+b = a 
+a = 7
+
+puts a
+puts b
