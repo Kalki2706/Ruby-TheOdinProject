@@ -21,3 +21,25 @@ puts cash *= 2 #=> 20
 
 temprature = 40
 puts temprature /= 10 #=> 4
+
+# Naming variables
+# bad
+a = 19
+string = "John"
+
+# good
+age = 19
+name = "John"
+can_swim = false
+
+# Variables are References
+desired_location = "Barcelona"
+johns_location = desired_location
+
+puts desired_location  #=> "Barcelona"
+puts johns_location    #=> "Barcelona"
+
+puts johns_location.upcase!  #=> "BARCELONA"
+
+puts desired_location        #=> "BARCELONA"
+puts johns_location          #=> "BARCELONA"
