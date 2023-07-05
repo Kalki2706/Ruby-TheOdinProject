@@ -54,3 +54,12 @@ a = 7
 
 puts a
 puts b
+
+
+# GETTING DATA FROM A USER
+# name = gets #take user input
+# name = gets.chomp # remove carriage "\n" after return
+
+# puts name = gets.chomp
+
+# puts name + ' is super great'
