@@ -72,4 +72,8 @@ def print_full_name(first_name, last_name)
   puts name
 end
 
-puts print_full_name 'Kalki', 'V'
+print print_full_name 'Peter', 'Henry'   # prints Peter Henry
+print print_full_name 'Lynn', 'Blake'    # prints Lynn Blake
+print print_full_name 'Kim', 'Johansson' # prints Kim Johansson
+puts name                          # prints Somebody Else
+
