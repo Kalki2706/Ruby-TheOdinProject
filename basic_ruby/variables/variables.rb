@@ -63,3 +63,13 @@ puts b
 # puts name = gets.chomp
 
 # puts name + ' is super great'
+
+# VARIBALE SCOPE
+name = 'Somebody Else'
+
+def print_full_name(first_name, last_name)
+  name = first_name + ' ' + last_name
+  puts name
+end
+
+puts print_full_name 'Kalki', 'V'
