@@ -16,3 +16,31 @@ def caps(string)
 end
 
 puts caps('Hello World')
+
+# 3. Write a program that takes a number from the user between 0 and 100 and reports back whether the number is between 0 and 50, 51 and 100, or above 100.
+
+puts "Enter a number between 0 to 100"
+number = gets.chomp.to_i
+
+if (number > 100)
+    puts "The number is greater than 100"
+elsif (number >= 51)
+    puts "The number is between 51 and 100"
+else 
+    puts "The number is between 0 & 50"
+end
+
+# Alternate: Function method
+puts "Enter a digit between 0 to 100"
+
+def get_number(digit)
+    if (digit > 100)
+        puts "The digit is greater than 100"
+    elsif (digit >= 51)
+        puts "The digit is between 51 and 100"
+    else 
+        puts "The digit is between 0 & 50"
+    end
+end
+
+puts get_number(digit = gets.chomp.to_i)
