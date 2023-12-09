@@ -96,3 +96,12 @@ def equal_to_four(x)
 end
 
 equal_to_four(5)
+
+# 6. Write down whether the following expressions return true or false or raise an error. Then, type the expressions into irb to see the results.
+
+# puts (32 * 4) >= "129" # Comaprison with Integer with String
+puts 847 == '847' # False
+puts '847' < '846' # False
+puts '847' > '846' # True
+puts '847' > '8478' # False
+puts '847' < '8478' # True
