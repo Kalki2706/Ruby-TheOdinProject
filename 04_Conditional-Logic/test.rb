@@ -58,3 +58,24 @@ puts response = age < 18 ? "You still have your entire life ahead of you." : "Yo
 puts "#{age < 18 ? "You still have your entire life ahead of you." : "You're all grown up."}"
 
 puts response
+
+# Switch flow 
+
+print "Enter top level domain: "
+
+domain = gets.chomp
+
+case domain
+    when "in"
+      puts "India"
+    when "us"
+        puts "United States"
+    when "de"
+        puts "Germany"
+    when "sk"
+        puts "Slovakia"
+    when "hu"
+        puts "Hungary"
+    else
+        puts "Unknown"
+end
